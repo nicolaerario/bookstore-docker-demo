@@ -1,6 +1,11 @@
 # Draft readme for now
 
-command list:
+### Features:
+- Based on Django 3; Postgres for db; both running on docker containers
+- Custom User that inherit from AbstractUser class
+- Apps with tests
+
+### Command list:
 - `podman-compose up -d --build` to first time build the image
 - `podman-compose up -d` to start images (web and db); -d (detached) means without standard django prompt
 - `podman-compose down` to stop and remove images
