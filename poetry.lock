@@ -103,6 +103,14 @@ argon2 = ["argon2-cffi (>=16.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+category = "main"
+description = "Best way to have Django DRY forms"
+name = "django-crispy-forms"
+optional = false
+python-versions = "*"
+version = "1.8.1"
+
+[[package]]
 category = "dev"
 description = "A Python utility / library to sort Python imports."
 name = "isort"
@@ -219,7 +227,7 @@ python-versions = "*"
 version = "1.11.2"
 
 [metadata]
-content-hash = "d0e6e97d6d8366b0857fa4ea793e0071e352a21c62b700c98a82c84432175add"
+content-hash = "73f5d579180483e9d4c8998da724c603441255a5f5e670ae695911a5eec1be3c"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -254,6 +262,10 @@ colorama = [
 django = [
     {file = "Django-3.0.2-py3-none-any.whl", hash = "sha256:4f2c913303be4f874015993420bf0bd8fd2097a9c88e6b49c6a92f9bdd3fb13a"},
     {file = "Django-3.0.2.tar.gz", hash = "sha256:8c3575f81e11390893860d97e1e0154c47512f180ea55bd84ce8fa69ba8051ca"},
+]
+django-crispy-forms = [
+    {file = "django-crispy-forms-1.8.1.tar.gz", hash = "sha256:0afc0ba730f52a13c02bfbd0e1423af4577a337d73a8a0ef96f2cbbc5f345ffa"},
+    {file = "django_crispy_forms-1.8.1-py2.py3-none-any.whl", hash = "sha256:2db711ce31f6f9ef42c16829cc3636e3819f97c1b22a3b706afed679bc417e88"},
 ]
 isort = [
     {file = "isort-4.3.21-py2.py3-none-any.whl", hash = "sha256:6e811fcb295968434526407adb8796944f1988c5b65e8139058f2014cbe100fd"},
