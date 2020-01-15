@@ -3,8 +3,9 @@
 ### Features:
 - Based on Django 3; Postgres for db; both running on docker containers
 - Custom User that inherit from AbstractUser class
-- Apps with tests
-
+- Tests for apps and templates
+- Bootstrap 4 integration
+- User signup, login and logout (also with socials) managed by django-allauth package
 ### Command list:
 - `podman-compose up -d --build` to first time build the image
 - `podman-compose up -d` to start images (web and db); -d (detached) means without standard django prompt
