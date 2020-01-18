@@ -6,6 +6,7 @@
 - Tests for apps and templates
 - Bootstrap 4 integration
 - User signup, login and logout (also with socials) managed by django-allauth package
+- Environments variables in .env files: no more hardcoded in settings and hidden from vcs
 ### Command list:
 - `podman-compose up -d --build` to first time build the image
 - `podman-compose up -d` to start images (web and db); -d (detached) means without standard django prompt
