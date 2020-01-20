@@ -1,4 +1,4 @@
-# Draft readme for now - Project in WIP status
+# Project in WIP status: draft readme for now 
 
 ### Features:
 - Based on Django 3; Postgres for db; both running on docker containers
