@@ -5,9 +5,11 @@
 - Custom User that inherit from AbstractUser class
 - Tests for apps and templates
 - Bootstrap 4 integration
-- User signup, login and logout (also with socials) managed by django-allauth package
 - Environments variables in .env files: no more hardcoded in settings and hidden from vcs
+- User signup, login and logout (also with socials) managed by django-allauth package
+- Custom email signup confirmation
 ### Command list:
+_(I manage containers with Podman: rootless and daemonless. Replace the word `podman` with `docker`)_
 - `podman-compose up -d --build` to first time build the image
 - `podman-compose up -d` to start images (web and db); -d (detached) means without standard django prompt
 - `podman-compose down` to stop and remove images
