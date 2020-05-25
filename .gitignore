@@ -143,4 +143,7 @@ pip-selfcheck.json
 # Ignore all local history of files
 .history
 
+### Node
+node_modules/
+
 # End of https://www.gitignore.io/api/django,virtualenv,visualstudiocode

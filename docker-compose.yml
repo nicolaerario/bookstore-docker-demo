@@ -1,4 +1,4 @@
-version: '3.7'
+version: "3.7"
 
 services:
   web:
@@ -14,10 +14,10 @@ services:
       - db
   db:
     image: postgres:11
-    env_file: 
+    env_file:
       - .env
-    volumes: 
+    volumes:
       - postgres_data:/var/lib/postgresql/data/
 
-volumes: 
+volumes:
   postgres_data:
