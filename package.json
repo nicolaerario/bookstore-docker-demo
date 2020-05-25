@@ -1,0 +1,23 @@
+{
+  "name": "bookstore-docker-demo",
+  "version": "1.0.0",
+  "description": "- Based on Django 3; Postgres for db; both running on docker containers\r - Custom User that inherit from AbstractUser class\r - Tests for apps and templates\r - Bootstrap 4 integration\r - Environments variables in .env files: no more hardcoded in settings and hidden from vcs\r - User signup, login and logout (also with socials) managed by django-allauth package\r - Custom email signup confirmation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolaerario/bookstore-docker-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolaerario/bookstore-docker-demo/issues"
+  },
+  "homepage": "https://github.com/nicolaerario/bookstore-docker-demo#readme",
+  "devDependencies": {
+    "prettier": "2.0.5"
+  }
+}
