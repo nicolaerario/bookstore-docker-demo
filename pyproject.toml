@@ -6,7 +6,7 @@ authors = ["Nicola Erario <nicola.erario@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-django = "^3.2.14"
+django = "^3.2.15"
 psycopg2-binary = "^2.8.4"
 django-crispy-forms = "^1.8.1"
 django-allauth = "^0.41.0"
